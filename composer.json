@@ -1,0 +1,37 @@
+{
+    "name": "kanellov/transelot",
+    "description": "A simple function that translitterate greek to latin based on iso 843",
+    "version": "0.0.1",
+    "type": "library",
+    "keywords": [
+        "greeklish", "translitterate", "iso843", "843", "iso", "elot", "greek"
+    ],
+    "homepage": "https://github.com/kanellov/transelot",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vassilis Kanellopoulos",
+            "email": "contact@kanellov.com",
+            "homepage": "http://kanellov.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "contact@kanellov.com",
+        "issues": "https://github.com/kanellov/transelot/issues",
+        "source": "https://github.com/kanellov/transelot"
+    },
+    "require": {
+        "php": ">=5.3.2",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "funkatron/funit": "0.6.0"
+    },
+    "autoload": {
+        "files": [
+            "transelot.php"
+        ]
+    }
+
+}
