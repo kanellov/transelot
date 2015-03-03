@@ -1,7 +1,6 @@
 {
     "name": "kanellov/transelot",
     "description": "A simple function that translitterate greek to latin based on iso 843",
-    "version": "0.0.2",
     "type": "library",
     "keywords": [
         "greeklish", "translitterate", "iso843", "843", "iso", "elot", "greek"
