@@ -23,23 +23,24 @@ Install via composer:
     php composer.phar install
 
 Add this line to your application’s index.php file:
-
-    <?php
-    require 'vendor/autoload.php';
-
+```php
+<?php
+require 'vendor/autoload.php';
+```
 ## System Requirements
 
 You need PHP >= 5.3.2 and ext-mbstring installed.
 
 ## Examples
+```php
+<?php
+$greek = 'Καλημέρα';
+$latin = \Knlv\transelot($greek);
+echo $latin;
+// echoes Kalimera
 
-    <?php
-    $greek = 'Καλημέρα';
-    $latin = \Knlv\transelot($greek);
-    echo $latin;
-    // echoes Kalimera
-    
-    $greek = 'Ευτυχία';
-    $latin = \Knlv\transelot($greek);
-    echo $latin;
-    // echoes Eftychia
+$greek = 'Ευτυχία';
+$latin = \Knlv\transelot($greek);
+echo $latin;
+// echoes Eftychia
+```
