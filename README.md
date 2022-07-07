@@ -10,17 +10,11 @@ Install composer in your project:
 
     curl -s https://getcomposer.org/installer | php
 
-Create a composer.json file in your project root:
-
-    {
-        "require": {
-            "kanellov/transelot": "dev-master"
-        }
-    }
-
 Install via composer:
 
-    php composer.phar install
+    composer install kanellov/transelot
+    
+If you don't have composer installed globally, please refer to the [https://getcomposer.org/doc/00-intro.md#globally](documentation)
 
 Add this line to your application’s index.php file:
 ```php
